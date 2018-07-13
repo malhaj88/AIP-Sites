@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.aspire.adv.AspireAutomationAdvApplication;
+import com.aspire.aip.AspireAutomationAipApplication;
 import com.aspire.automation.AspireAutomationAutoconfigurationApplication;
 import com.aspire.automation.junitrunners.AspireDefaultTestRunner;
 /**
@@ -17,7 +17,7 @@ import com.aspire.automation.junitrunners.AspireDefaultTestRunner;
  *
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest(webEnvironment = WebEnvironment.DEFINED_PORT, classes = { AspireAutomationAdvApplication.class,
+@SpringBootTest(webEnvironment = WebEnvironment.DEFINED_PORT, classes = { AspireAutomationAipApplication.class,
 		AspireAutomationAutoconfigurationApplication.class }) 
 
 public class AspireAutomationAdvApplicationTest extends AspireDefaultTestRunner {
