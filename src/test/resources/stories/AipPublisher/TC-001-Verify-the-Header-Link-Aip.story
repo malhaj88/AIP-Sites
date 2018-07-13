@@ -2,7 +2,7 @@ Meta:
 @production
 Scenario: TC-001-Verify the Header Link AIP.
  
-Given [1000-9000] User opens aip Publishing Page page
+Given [1000-9000] User opens aip Page page
 And [1000-3010] Set window size to be 850 Height and 1500 Width
 When [1111-1080] cookie should be displayed, Within 20 seconds
 And [1100-0300] User click on it
