@@ -9,5 +9,4 @@ And [1100-0300] User click on it
 And [1111-1080] aippublish_Aip_Link should be displayed, Within 20 seconds
 And [1100-0300] User click on it
 Then [1011-0000] Page Url should contain https://www.aip.org/, Within 20 seconds
-And [1111-1130] aippublish_Aip_Link_More_About text should contain Publications, Within 20 seconds
-And [1101-1100] aippublish_Aip_Link_More_About text should equal to aippublish_Aip_Link_More_About
+And [1101-1100] aippublish_Aip_Link_More_About text should equal to MORE ABOUT AIP

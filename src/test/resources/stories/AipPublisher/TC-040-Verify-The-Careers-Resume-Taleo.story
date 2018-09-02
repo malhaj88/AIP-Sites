@@ -2,24 +2,24 @@ Meta:
 @production
 Scenario: TC-040 Verify the resume Form/page loaded from Taleo.
 
-Given I am On aipPublishingPage
-When I hover over aip_Careers
-And I click on aip_Careers_Opportunities
-And I switch to frame search_Frame
-And I click on new_Search
-And I scroll To taleo_Link
-And I click on taleo_Link
-Then The taleo_Form_Email_Registrationt should be Email Registration
-And The taleo_Form_Resume_Attachment should be Resume Attachment
-And The taleo_Form_Personal_Information should be Personal Information
-And The taleo_Form_Hear_About should be How did you hear about us?
-And The taleo_Form_Additional_Informationt should be Additional Information
-And The taleo_Form_Employment_History should be Employment History:
-And The taleo_Form_Education should be Education
-And The taleo_Form_Concludes should be This concludes the application information.
-And The taleo_Form_Voluntary should be Voluntary Equal Opportunity Questionnaire
-And The taleo_Form_Voluntary_Veterans should be Voluntary Veterans Status
-
-
-
+Given [1000-9000] User opens aip Page page
+And [1000-3010] Set window size to be 850 Height and 1500 Width
+When [1111-1080] cookie should be displayed, Within 20 seconds
+And [1100-0300] User click on it
+And [1100-1360] User move mouse to aip_Careers
+And [1111-1080] aip_Careers_Opportunities should be displayed, Within 20 seconds
+And [1100-0300] User click on it
+And [1000-6000] Focus on Frame at 1
+And [1100-1321] User scroll to the seach_Button then click it
+And [1100-1321] User scroll to the taleo_Link then click it
+Then [1111-1100] taleo_Form_Email_Registrationt text should equal to Email Registration, Within 20 seconds
+And [1101-1100] taleo_Form_Resume_Attachment text should equal to Resume Attachment
+And [1101-1100] taleo_Form_Personal_Information text should equal to Personal Information
+And [1101-1100] taleo_Form_Hear_About text should equal to How did you hear about us?
+And [1101-1100] taleo_Form_Additional_Informationt text should equal to Additional Information
+And [1101-1100] taleo_Form_Employment_History text should equal to Employment History:
+And [1101-1100] taleo_Form_Education text should equal to Education
+And [1101-1100] taleo_Form_Concludes text should equal to This concludes the application information.
+And [1101-1100] taleo_Form_Voluntary text should equal to Voluntary Equal Opportunity Questionnaire
+And [1101-1100] taleo_Form_Voluntary_Veterans text should equal to Voluntary Veterans Status
 

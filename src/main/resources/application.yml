@@ -1,6 +1,6 @@
 aspire:  
   webdriver:
-     scope: scenario
+     scope: restart
    
   console:
     enabled: true 
@@ -32,8 +32,8 @@ aspire:
         enabled: true   
         include: 
           #- stories/Advertising/**.story
+          #- stories/**/**.story
           - stories/**/**.story
-          #- stories/**/TC-001-PublicationsPage(AIP Advances)**.story
           #- stories/**/TC-006-PasswordValidation3.story
           #- stories/**/TC-013-Verify the images on the Audience page.story
           

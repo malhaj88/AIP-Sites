@@ -2,8 +2,12 @@ Meta:
 @production
 Scenario: TC-025 Verify the privacy policy footer section
 
-Given I am On aipPublishingPage
-When I click on aip_Footer_Privacypolicy
-And I switch tabs
-Then page URL should be https://www.scitation.org/privacy
-And The aip_Term_Page should be Privacy Policy
+Given [1000-9000] User opens aip Page page
+And [1000-3010] Set window size to be 850 Height and 1500 Width
+When [1111-1080] cookie should be displayed, Within 20 seconds
+And [1100-0300] User click on it
+And [1111-1080] aip_Footer_Privacypolicy should be displayed, Within 20 seconds
+And [1100-0300] User click on it
+And [1000-4000] User switches to tab 1
+Then [1011-0000] Page Url should contain https://www.scitation.org/privacy, Within 20 seconds
+And [1111-1100] aip_Term_Page text should equal to Privacy Policy, Within 20 seconds

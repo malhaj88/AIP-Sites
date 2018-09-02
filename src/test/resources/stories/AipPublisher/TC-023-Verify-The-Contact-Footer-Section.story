@@ -2,7 +2,11 @@ Meta:
 @production
 Scenario: TC-023 Verify the contact footer section
 
-Given I am On aipPublishingPage
-When The aip_Footer_Llc should be 2018 AIP Publishing LLC
-Then I click on aip_Footer_Contact
-And The page_Title should be Contact Us
+Given [1000-9000] User opens aip Page page
+And [1000-3010] Set window size to be 850 Height and 1500 Width
+When [1111-1080] cookie should be displayed, Within 20 seconds
+And [1100-0300] User click on it
+Then [1111-1100] aip_Footer_Llc text should equal to 2018 AIP Publishing LLC, Within 20 seconds
+And [1111-1080] aip_Footer_Contact should be displayed, Within 20 seconds
+And [1100-0300] User click on it
+And [1111-1100] page_Title text should equal to U.S. Headquarters, Within 20 seconds
