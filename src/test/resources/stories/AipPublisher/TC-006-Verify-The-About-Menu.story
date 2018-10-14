@@ -6,7 +6,7 @@ Given [1000-9000] User opens aip Page page
 And [1000-3010] Set window size to be 850 Height and 1500 Width
 When [1111-1080] cookie should be displayed, Within 20 seconds
 And [1100-0300] User click on it
-And [1101-1100] aip_About text should equal to About
+And [1101-1140] aip_About text should contain About
 And [1100-1360] User move mouse to aip_About
 And [1111-1080] aip_About_Aboutpublisher should be displayed, Within 20 seconds
 And [1100-0300] User click on it

@@ -9,4 +9,4 @@ And [1100-0300] User click on it
 And [1111-1080] aippublish_Scitation_Link should be displayed, Within 20 seconds
 And [1100-0300] User click on it
 Then [1011-0000] Page Url should contain https://www.scitation.org/, Within 20 seconds
-And [1101-1100] aippublish_Scitation_Title text should equal to Scitation
+And [1101-1140] aippublish_Scitation_Title text should contain Scitation
