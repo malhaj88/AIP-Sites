@@ -9,4 +9,4 @@ And [1100-0300] User click on it
 And [1111-1080] aip_Industry_Clockss should be displayed, Within 20 seconds
 And [1100-0300] User click on it
 And [1000-4000] User switches to tab 1
-Then [1011-0000] Page Url should contain https://clockss.org/clockss/Home, Within 20 seconds
+Then [1011-0000] Page Url should contain https://clockss.org, Within 20 seconds
