@@ -1,24 +1,50 @@
 aspire:  
+  webdriver:
+     scope: scenario
+   
+  console:
+    enabled: true 
+  
+  
+  dashboard:
+    integration:
+     enabled: true
+     host: 82.212.71.230
+     port: 5070
+     path: api
+     protocol: http
+     logLevel: FULL
+     projectId: 12 
+     summary-report-template: ./Summary_Report_Template.txt
+      
+  
+      
   jbehave:
-    metat-data:
-    - -s2 
+    meta-data:
+    - +production 
     thread: 1
     story-time-out: 3000 
-    rerun: 0 
+    rerun: 1 
     softassert: 
       enabled: true 
     stories:
       defaultloader:
         enabled: true   
         include: 
-         - stories/**/**login-001.story
-          - stories/**/TC-specificPublisher-001.story
-         
-
-        
-        
+          #- stories/Advertising/**.story
+          - stories/**/**.story
+          #- stories/**/TC-001-PublicationsPage(AIP Advances)**.story
+          #- stories/**/TC-006-PasswordValidation3.story
+          #- stories/**/TC-013-Verify the images on the Audience page.story
+          
+          
+          
+     
+          
+       
   screenshot:
-    enabled: false
+    enabled: true
+    only-on-failure: true
     filesaver:
       enabled: true
       folder-location: ./screenshots/
@@ -44,11 +70,11 @@ endpoints:
     
     
 server:
-  port: 9090
+  port: 0
 
 
 
-      
+
 
 
 
