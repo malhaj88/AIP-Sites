@@ -1,28 +1,9 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
-
-screenshots/
-Temp
-summary_report.txt
+*.png
+target/test-classes/stories/Search/TC-031-Search-SearchResultsPage.story
+target/test-classes/configs/Variables.properties
+target/classes/aspire/com/steps/Steps2.class
+*.html
+*.stats
+/target/
+reports/XYZ_Mon,14_Aug_2017_10_49_41/High_Level_Results.txt
+reports/XYZ/High_Level_Results.txt

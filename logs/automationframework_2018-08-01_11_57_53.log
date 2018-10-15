@@ -1,0 +1,198 @@
+ERROR [Aug 01 11:57:53] (AspireLog4j.java:243) - Missing file MainConfig.properties java.io.FileNotFoundException: C:\Malhaj\Drupal-and-WordPress-AIP-Sites\src\test\resources\configs\MainConfig.properties (The system cannot find the file specified)
+java.io.FileNotFoundException: C:\Malhaj\Drupal-and-WordPress-AIP-Sites\src\test\resources\configs\MainConfig.properties (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at jo.aspire.automation.logger.EnvirommentManager.LoadMainConfig(EnvirommentManager.java:105)
+	at jo.aspire.automation.logger.EnvirommentManager.loadProperties(EnvirommentManager.java:138)
+	at jo.aspire.automation.logger.EnvirommentManager.getInstance(EnvirommentManager.java:82)
+	at jo.aspire.automation.logger.AspireLog4j.<init>(AspireLog4j.java:64)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at jo.aspire.automation.logger.EnvirommentManager.setIntialLog4jClass(EnvirommentManager.java:59)
+	at jo.aspire.automation.logger.EnvirommentManager.setInitialClass(EnvirommentManager.java:44)
+	at aspire.com.test.StoriesTest.run(StoriesTest.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+INFO  [Aug 01 11:57:53] (AspireLog4j.java:125) - Jar path is:
+INFO  [Aug 01 11:57:53] (AspireLog4j.java:125) - Run with IDE - iam not jar
+INFO  [Aug 01 11:57:53] (AspireLog4j.java:125) - Logger Object Injected  
+INFO  [Aug 01 11:57:53] (AspireLog4j.java:125) - Logger Object Injected  
+INFO  [Aug 01 11:57:54] (AspireLog4j.java:125) - Logger Object Injected  
+INFO  [Aug 01 11:57:55] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 11:57:55] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 11:59:29] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 11:59:29] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 11:59:29] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:00:41] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:00:41] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:00:41] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:01:07] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:01:07] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:01:07] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:01:25] (AspireLog4j.java:125) - Info : ####### screenshotPath ####### :screenshots\screenshot5771ec50-cf06-4150-b2cb-154c0df29803.png
+INFO  [Aug 01 12:01:26] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:01:26] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:01:26] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:01:46] (AspireLog4j.java:125) - Info : ####### screenshotPath ####### :screenshots\screenshote27c36ad-e33c-489f-94c2-e62d040d003e.png
+INFO  [Aug 01 12:01:47] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:01:47] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:01:47] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:02:06] (AspireLog4j.java:125) - Info : ####### screenshotPath ####### :screenshots\screenshotbd6f6efd-1112-4022-88cf-9f87fc3e89e9.png
+INFO  [Aug 01 12:02:07] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:02:07] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:02:07] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:02:29] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:02:29] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:02:29] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:02:48] (AspireLog4j.java:125) - Info : ####### screenshotPath ####### :screenshots\screenshot3e780568-90f9-414d-b92a-283737f501e0.png
+INFO  [Aug 01 12:02:49] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:02:49] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:02:49] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:03:08] (AspireLog4j.java:125) - Info : ####### screenshotPath ####### :screenshots\screenshot4dc807a1-3987-4ddf-934d-b881cd6f75dc.png
+INFO  [Aug 01 12:03:09] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:03:09] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:03:09] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:03:27] (AspireLog4j.java:125) - Info : ####### screenshotPath ####### :screenshots\screenshot694dc893-7a14-4263-856b-1cb010a95861.png
+INFO  [Aug 01 12:03:28] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:03:28] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:03:28] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:03:50] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:03:51] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:03:51] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:04:23] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:04:23] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:04:23] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:04:55] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:04:55] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:04:55] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:05:25] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:05:25] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:05:25] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:05:52] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:05:52] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:05:52] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:06:21] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:06:21] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:06:21] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:06:40] (AspireLog4j.java:125) - Info : ####### screenshotPath ####### :screenshots\screenshot94b8686f-5949-4d5d-9dac-bf61bc983d9d.png
+INFO  [Aug 01 12:06:41] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:06:41] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:06:41] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:07:00] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:07:00] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:07:00] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:07:22] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:07:22] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:07:22] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:07:46] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:07:46] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:07:46] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:08:09] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:08:09] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:08:09] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:08:33] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:08:33] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:08:33] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:09:00] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:09:00] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:09:00] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:09:25] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:09:25] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:09:25] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:09:41] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:09:41] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:09:41] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:09:58] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:09:58] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:09:58] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:10:17] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:10:17] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:10:17] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:10:33] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:10:33] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:10:33] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:10:49] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:10:49] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:10:49] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:11:21] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:11:21] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:11:21] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:11:58] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:11:58] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:11:58] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:12:24] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:12:24] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:12:24] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:13:01] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:13:01] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:13:01] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:13:20] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:13:20] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:13:20] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:13:39] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:13:39] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:13:39] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:14:19] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:14:19] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:14:19] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:14:54] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:14:54] (AspireLog4j.java:125) - Logger Object Injected  
+INFO  [Aug 01 12:14:54] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:14:54] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:15:16] (AspireLog4j.java:125) - Info : ####### screenshotPath ####### :screenshots\screenshot151f86bd-1814-4480-a753-6c6929d0ed84.png
+INFO  [Aug 01 12:15:17] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:15:17] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:15:17] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:15:58] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:15:58] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:15:58] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:16:33] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:16:33] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:16:33] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:18:07] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:18:07] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:18:07] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:18:37] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:18:37] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:18:37] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:18:58] (AspireLog4j.java:125) - Info : ####### screenshotPath ####### :screenshots\screenshotfd2e73db-36d1-4b63-aeae-31d746366b08.png
+INFO  [Aug 01 12:19:00] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:19:00] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:19:00] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:19:28] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:19:28] (AspireLog4j.java:125) - Logger Object Injected  
+INFO  [Aug 01 12:19:28] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:19:28] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:20:10] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:20:10] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:20:10] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:20:32] (AspireLog4j.java:125) - Info : ####### screenshotPath ####### :screenshots\screenshotd75f392f-5183-4ab4-b4af-87e3c536c5b9.png
+INFO  [Aug 01 12:20:34] (AspireLog4j.java:125) - After Story Driver Provider Closed  
+INFO  [Aug 01 12:20:34] (AspireLog4j.java:125) - Logger Object Injected  
+INFO  [Aug 01 12:20:34] (AspireLog4j.java:125) - Before Story Driver Provider initialized 
+INFO  [Aug 01 12:20:34] (AspireLog4j.java:125) - Capabilities [{acceptSslCerts="true", browser="chrome", chromeOptions=org.openqa.selenium.chrome.ChromeOptions@d30ff148}]
+INFO  [Aug 01 12:21:06] (AspireLog4j.java:125) - After Story Driver Provider Closed  
