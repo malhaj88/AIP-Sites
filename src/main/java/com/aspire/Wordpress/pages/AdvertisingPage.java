@@ -1,4 +1,4 @@
-package com.aspire.adv.pages;
+package com.aspire.Wordpress.pages;
 
 import com.aspire.automation.web.util.AspireWebElement;
 import com.aspire.automation.web.util.annotation.CssSelector;
@@ -162,5 +162,8 @@ public interface AdvertisingPage {
 
 	@CssSelector("${pages.advertisingPage.contact_Contactus_Directly}")
 	public AspireWebElement contact_Contactus_Directly();
+
+	@CssSelector("${pages.advertisingPage.cookie}")
+	public AspireWebElement cookie();
 
 }
