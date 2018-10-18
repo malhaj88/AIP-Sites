@@ -153,5 +153,39 @@ public interface HorizonPage {
 
 	@CssSelector("${pages.horizonPage.conf_Title}")
 	public AspireWebElement conf_Title();
+	
+	@CssSelector("${pages.horizonPage.author}")
+	public AspireWebElement author();
+	
+	@CssSelector("${pages.horizonPage.librarian}")
+	public AspireWebElement librarian();
+	
+	@CssSelector("${pages.horizonPage.advertiser}")
+	public AspireWebElement advertiser();
+	
+	//@CssSelector("${pages.horizonPage.contact_AccountNumber}")
+	//public AspireWebElement contact_AccountNumber();
+	
+	@CssSelector("${pages.horizonPage.about}")
+	public AspireWebElement about();
+	
+	@CssSelector("${pages.horizonPage.contact}")
+	public AspireWebElement contact();
+	
+	@CssSelector("${pages.horizonPage.help}")
+	public AspireWebElement help();
+	
+	@CssSelector("${pages.horizonPage.terms_Of_Use}")
+	public AspireWebElement terms_Of_Use();
+	
+	@CssSelector("${pages.horizonPage.facebook_Icon}")
+	public AspireWebElement facebook_Icon();
+	
+	@CssSelector("${pages.horizonPage.twitter_Icon}")
+	public AspireWebElement twitter_Icon();
+	
+	@CssSelector("${pages.horizonPage.linkedin_Icon}")
+	public AspireWebElement linkedin_Icon();
+	
 
 }

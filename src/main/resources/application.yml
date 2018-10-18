@@ -32,7 +32,7 @@ aspire:
         enabled: true   
         include: 
           #- stories/Advertising/**.story
-          - stories/**/TC-001-Verify-the-Header-Titles.story
+          - stories/Horizon/TC-004-Verify-clicking-Upcoming_Con.story
           
           
           
@@ -57,13 +57,13 @@ logging:
   file: application_zurqan.log  
 
 
-endpoints:
-  beans:
-    sensitive: false
-  shutdown:
-    enabled: true
-  env:
-    sensitive: false
+#endpoints:
+#  beans:
+#   sensitive: false
+#  shutdown:
+#    enabled: true
+#  env:
+#    sensitive: false
     
     
 server:
