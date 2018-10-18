@@ -142,4 +142,7 @@ public interface ExhibitorPage {
 	@CssSelector("${pages.exhibitorPage.exhibitor_Recent_Events}")
 	public AspireWebElement exhibitor_Recent_Events();
 
+	@CssSelector("${pages.exhibitorPage.privacy_Policy_Page_Title}")
+	public AspireWebElement privacy_Policy_Page_Title();
+
 }
